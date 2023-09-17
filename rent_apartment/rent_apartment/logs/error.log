@@ -1,0 +1,10 @@
+2023-09-03 08:14:29.665 [main] INFO  c.e.r.t.TestApartmentController - Starting TestApartmentController using Java 20.0.1 with PID 24760 (started by DAvmeste in C:\Users\DAvmeste\rent_apartments_application\rent_apartment)
+2023-09-03 08:14:29.669 [main] INFO  c.e.r.t.TestApartmentController - No active profile set, falling back to 1 default profile: "default"
+2023-09-03 08:14:38.877 [main] INFO  c.e.r.t.TestApartmentController - Started TestApartmentController in 10.9 seconds (process running for 12.217)
+2023-09-03 08:14:39.009 [main] INFO  c.e.r.s.BookingApartmentServiceImpl - BookingApartmentServiceImpl -> bookingApartmentsAndPayment()
+2023-09-03 08:14:39.156 [main] INFO  c.e.r.s.BookingApartmentServiceImpl - BookingApartmentServiceImpl <- bookingApartmentsAndPayment()
+2023-09-03 08:15:57.715 [main] INFO  c.e.r.t.TestApartmentController - Starting TestApartmentController using Java 20.0.1 with PID 13920 (started by DAvmeste in C:\Users\DAvmeste\rent_apartments_application\rent_apartment)
+2023-09-03 08:15:57.717 [main] INFO  c.e.r.t.TestApartmentController - No active profile set, falling back to 1 default profile: "default"
+2023-09-03 08:16:06.118 [main] INFO  c.e.r.t.TestApartmentController - Started TestApartmentController in 10.146 seconds (process running for 11.421)
+2023-09-03 08:16:06.227 [main] INFO  c.e.r.s.BookingApartmentServiceImpl - BookingApartmentServiceImpl -> bookingApartmentsAndPayment()
+2023-09-03 08:16:06.349 [main] INFO  c.e.r.s.BookingApartmentServiceImpl - BookingApartmentServiceImpl <- bookingApartmentsAndPayment()

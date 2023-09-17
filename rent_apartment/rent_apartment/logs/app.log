@@ -1,0 +1,66 @@
+2023-09-03 08:14:29.665 [main] INFO  c.e.r.t.TestApartmentController - Starting TestApartmentController using Java 20.0.1 with PID 24760 (started by DAvmeste in C:\Users\DAvmeste\rent_apartments_application\rent_apartment)
+2023-09-03 08:14:29.669 [main] INFO  c.e.r.t.TestApartmentController - No active profile set, falling back to 1 default profile: "default"
+2023-09-03 08:14:30.612 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-03 08:14:30.822 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 197 ms. Found 8 JPA repository interfaces.
+2023-09-03 08:14:31.097 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f4b71047-adc1-3a4a-a66d-5b7bce4e46cc
+2023-09-03 08:14:32.853 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-03 08:14:32.955 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-09-03 08:14:32.960 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2023-09-03 08:14:33.267 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-03 08:14:33.281 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-03 08:14:33.303 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-09-03 08:14:33.576 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@552088cc
+2023-09-03 08:14:33.578 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-09-03 08:14:34.072 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-03 08:14:34.813 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-03 08:14:34.862 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 08:14:35.398 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-09-03 08:14:35.745 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-03 08:14:36.387 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-09-03 08:14:36.388 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-09-03 08:14:36.389 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023-09-03 08:14:37.591 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-09-03 08:14:37.623 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-09-03 08:14:38.790 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-09-03 08:14:38.851 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-03 08:14:38.877 [main] INFO  c.e.r.t.TestApartmentController - Started TestApartmentController in 10.9 seconds (process running for 12.217)
+2023-09-03 08:14:39.009 [main] INFO  c.e.r.s.BookingApartmentServiceImpl - BookingApartmentServiceImpl -> bookingApartmentsAndPayment()
+2023-09-03 08:14:39.156 [main] INFO  c.e.r.s.BookingApartmentServiceImpl - BookingApartmentServiceImpl <- bookingApartmentsAndPayment()
+2023-09-03 08:14:39.227 [SpringApplicationShutdownHook] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-09-03 08:14:39.229 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application RENT-APARTMENT with eureka with status DOWN
+2023-09-03 08:14:39.232 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 08:14:39.234 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-09-03 08:14:39.241 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-09-03 08:15:57.715 [main] INFO  c.e.r.t.TestApartmentController - Starting TestApartmentController using Java 20.0.1 with PID 13920 (started by DAvmeste in C:\Users\DAvmeste\rent_apartments_application\rent_apartment)
+2023-09-03 08:15:57.717 [main] INFO  c.e.r.t.TestApartmentController - No active profile set, falling back to 1 default profile: "default"
+2023-09-03 08:15:58.532 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-03 08:15:58.744 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 202 ms. Found 8 JPA repository interfaces.
+2023-09-03 08:15:59.064 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f4b71047-adc1-3a4a-a66d-5b7bce4e46cc
+2023-09-03 08:16:00.607 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-03 08:16:00.689 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-09-03 08:16:00.692 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2023-09-03 08:16:00.901 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-03 08:16:00.916 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-03 08:16:00.943 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-09-03 08:16:01.181 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5383bf08
+2023-09-03 08:16:01.183 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-09-03 08:16:01.614 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-03 08:16:02.344 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-03 08:16:02.394 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 08:16:02.804 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-09-03 08:16:03.110 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-03 08:16:03.652 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-09-03 08:16:03.652 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-09-03 08:16:03.654 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023-09-03 08:16:04.833 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-09-03 08:16:04.865 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-09-03 08:16:06.046 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-09-03 08:16:06.095 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-03 08:16:06.118 [main] INFO  c.e.r.t.TestApartmentController - Started TestApartmentController in 10.146 seconds (process running for 11.421)
+2023-09-03 08:16:06.227 [main] INFO  c.e.r.s.BookingApartmentServiceImpl - BookingApartmentServiceImpl -> bookingApartmentsAndPayment()
+2023-09-03 08:16:06.349 [main] INFO  c.e.r.s.BookingApartmentServiceImpl - BookingApartmentServiceImpl <- bookingApartmentsAndPayment()
+2023-09-03 08:16:06.412 [SpringApplicationShutdownHook] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-09-03 08:16:06.413 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application RENT-APARTMENT with eureka with status DOWN
+2023-09-03 08:16:06.416 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 08:16:06.418 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-09-03 08:16:06.424 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
