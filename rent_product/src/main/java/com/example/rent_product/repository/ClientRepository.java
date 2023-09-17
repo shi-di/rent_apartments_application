@@ -10,5 +10,5 @@ public interface ClientRepository extends JpaRepository<ClientEntity, Long> {
     public ClientEntity getClientEntityByUserEmail(String email);
     public List<ClientEntity> findAllByFirstProductIsNull();
     public ClientEntity getClientEntityById(Long id);
-//    public ClientEntity getClientEntityByUsingCount();
+
 }

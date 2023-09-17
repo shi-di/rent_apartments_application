@@ -1,13 +1,8 @@
 package com.example.rent_basic_apartment.service;
 
 
-import com.example.rent_basic_apartment.model.dto.UserSession;
 import com.example.rent_basic_apartment.model.entity.ApartmentsEntity;
-import com.example.rent_basic_apartment.product_manager.ProductManager;
 import com.example.rent_basic_apartment.repository.ApartmentsRepository;
-import com.example.rent_basic_apartment.repository.BookingHistoryRepository;
-import com.example.rent_basic_apartment.repository.ClientRepository;
-import com.example.rent_basic_apartment.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +10,8 @@ import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 
-import static com.example.rent_basic_apartment.constant.ConstApplication.*;
+import static com.example.rent_basic_apartment.constant.ConstApplication.APARTMENT_BOOKED;
+import static com.example.rent_basic_apartment.constant.ConstApplication.APARTMENT_NOT_AVAILABLE;
 
 @Service
 @RequiredArgsConstructor
@@ -24,11 +20,6 @@ public class BookingApartmentServiceImpl implements BookingApartmentService {
     private final Logger logger = LoggerFactory.getLogger(BookingApartmentServiceImpl.class);
 
     private final ApartmentsRepository apartmentsRepository;
-//    private final ClientRepository clientRepository;
-//    private final BookingHistoryRepository bookingHistoryRepository;
-//    private final ProductRepository productRepository;
-//    private final ProductManager productManager;
-//    private final UserSession session;
     private final PrepareToBookingService prepareToBookingService;
 
     /**
