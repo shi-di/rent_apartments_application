@@ -10,7 +10,6 @@ import org.mapstruct.Mapping;
 public interface ApplicationMapper {
 
     public ApartmentsEntity prepareApartmentsEntity(RegistrationFormApartmentsDto apartmentsDto);
-    public ApartmentsEntity prepareApartmentsEntity(RatingApartmentDto ratingApartmentDto);
     public AddressEntity prepareAddressEntity(RegistrationFormApartmentsDto apartmentsDto);
     @Mapping(target = "cardNumber", source = "numberCard")
     public ClientEntity prepareClientEntity(RegistrationNewUserDto newUserDto);

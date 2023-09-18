@@ -7,9 +7,9 @@ import com.example.rent_basic_apartment.model.dto.RegistrationNewUserDto;
 import com.example.rent_basic_apartment.model.dto.UserSession;
 import com.example.rent_basic_apartment.model.entity.ClientEntity;
 import com.example.rent_basic_apartment.repository.ClientRepository;
+import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import static com.example.rent_basic_apartment.constant.ConstApplication.*;
@@ -17,15 +17,13 @@ import static com.example.rent_basic_apartment.service.Base64Service.decoding;
 import static com.example.rent_basic_apartment.service.Base64Service.encoding;
 
 @Service
+@RequiredArgsConstructor
 public class RegistrationServiceImpl implements RegistrationService {
     private final Logger logger = LoggerFactory.getLogger(RegistrationServiceImpl.class);
 
-    @Autowired
-    private ClientRepository clientRepository;
-    @Autowired
-    private ApplicationMapper mapper;
-    @Autowired
-    private UserSession session;
+    private final ClientRepository clientRepository;
+    private final ApplicationMapper mapper;
+    private final UserSession session;
 
     /**
      * регистрация нового пользователя
@@ -48,7 +46,6 @@ public class RegistrationServiceImpl implements RegistrationService {
         clientRepository.save(client);
 
         logger.info("RegistrationServiceImpl <- registrationNewUser()");
-
 
         return REGISTERED_SIGN_IN;
     }

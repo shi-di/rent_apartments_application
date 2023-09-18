@@ -1,86 +1,94 @@
-2023-09-08 00:01:19.186 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T00:01:19.186664100
-2023-09-08 00:01:19.191 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 00:01:19.221 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 00:01:41.929 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2023-09-08 10:01:15.383 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h59m4s448ms152µs900ns).
-2023-09-08 10:01:28.519 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:01:28.519172600
-2023-09-08 10:01:28.519 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:01:28.551 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:02:58.562 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:02:58.562907800
-2023-09-08 10:02:58.562 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:02:58.596 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:04:28.600 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:04:28.600099900
-2023-09-08 10:04:28.600 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:04:28.619 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:05:21.240 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2023-09-08 10:05:58.629 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:05:58.629250600
-2023-09-08 10:05:58.629 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:05:58.656 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:07:28.666 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:07:28.666470
-2023-09-08 10:07:28.666 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:07:28.696 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:08:58.697 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:08:58.697897500
-2023-09-08 10:08:58.697 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:08:58.722 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:10:21.250 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2023-09-08 10:10:28.724 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:10:28.724772200
-2023-09-08 10:10:28.724 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:10:28.753 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:11:58.766 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:11:58.766854700
-2023-09-08 10:11:58.766 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:11:58.798 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:13:28.810 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:13:28.810987400
-2023-09-08 10:13:28.810 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:13:28.844 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:14:58.844 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:14:58.844499
-2023-09-08 10:14:58.844 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:14:58.879 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:15:21.264 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2023-09-08 10:16:28.890 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:16:28.890344700
-2023-09-08 10:16:28.890 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:16:28.919 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:17:58.933 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:17:58.933401300
-2023-09-08 10:17:58.933 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:17:58.967 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:19:28.976 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:19:28.976682600
-2023-09-08 10:19:28.976 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:19:29.011 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:20:21.267 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2023-09-08 10:20:59.025 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:20:59.025621500
-2023-09-08 10:20:59.025 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:20:59.057 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:22:29.058 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:22:29.058137400
-2023-09-08 10:22:29.058 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:22:29.095 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:23:59.100 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-08T10:23:59.100042200
-2023-09-08 10:23:59.100 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
-2023-09-08 10:23:59.126 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
-2023-09-08 10:25:16.628 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application RENT-PRODUCT-APARTMENT with eureka with status DOWN
-2023-09-08 10:25:16.629 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1694157916629, current=DOWN, previous=UP]
-2023-09-08 10:25:16.630 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0: registering service...
-2023-09-08 10:25:16.691 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8081/eureka/} exception=I/O error on POST request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-09-18 00:01:24.396 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:01:24.396247
+2023-09-18 00:01:24.403 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:01:24.425 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:02:54.440 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:02:54.440054300
+2023-09-18 00:02:54.440 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:02:54.470 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:04:19.254 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-09-18 00:04:24.478 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:04:24.478462500
+2023-09-18 00:04:24.478 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:04:24.516 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:05:54.523 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:05:54.523415
+2023-09-18 00:05:54.523 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:05:54.554 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:07:24.558 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:07:24.558570600
+2023-09-18 00:07:24.558 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:07:24.587 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:08:54.603 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:08:54.603090200
+2023-09-18 00:08:54.603 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:08:54.626 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:09:19.259 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-09-18 00:10:24.635 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:10:24.635056700
+2023-09-18 00:10:24.635 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:10:24.663 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:11:54.676 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:11:54.676048
+2023-09-18 00:11:54.676 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:11:54.709 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:13:24.722 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:13:24.722338700
+2023-09-18 00:13:24.722 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:13:24.753 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:14:19.266 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-09-18 00:14:55.789 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:14:55.789360300
+2023-09-18 00:14:55.789 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:14:55.814 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:16:25.820 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:16:25.820469900
+2023-09-18 00:16:25.820 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:16:25.848 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:17:55.853 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:17:55.853630200
+2023-09-18 00:17:55.853 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:17:55.882 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:19:20.311 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-09-18 00:19:25.882 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - Шедулер отправил сообщения: 2023-09-18T00:19:25.882849100
+2023-09-18 00:19:25.882 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler -> sendMassageProductInfo()
+2023-09-18 00:19:25.916 [scheduling-1] INFO  c.e.r.s.EventManagerScheduler - EventManagerScheduler <- sendMassageProductInfo()
+2023-09-18 00:19:40.123 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application RENT-PRODUCT-APARTMENT with eureka with status DOWN
+2023-09-18 00:19:40.123 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1694985580123, current=DOWN, previous=UP]
+2023-09-18 00:19:40.123 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0: registering service...
+2023-09-18 00:19:40.141 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0 - registration status: 204
+2023-09-18 00:19:40.228 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-18 00:19:40.239 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-09-18 00:19:40.245 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-09-18 00:19:40.246 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2023-09-18 00:19:43.263 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2023-09-18 00:19:43.327 [SpringApplicationShutdownHook] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8081/eureka/} exception=I/O error on DELETE request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
 	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:81)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
 	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
 	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
-	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:916)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:892)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:191)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:184)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1182)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1107)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1076)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1027)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
@@ -120,113 +128,10 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
 	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
-	... 21 more
+	... 37 more
 
-2023-09-08 10:25:16.692 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on POST request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-2023-09-08 10:25:16.722 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8081/eureka/}, exception=I/O error on POST request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
-	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
-	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:81)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
-	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:666)
-	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
-	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
-	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
-	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
-	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
-	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
-	... 22 more
-
-2023-09-08 10:25:16.722 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on POST request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-2023-09-08 10:25:16.722 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0 - registration failed Cannot execute request on any known server
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
-	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-2023-09-08 10:25:16.727 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
-	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-2023-09-08 10:25:16.728 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-08 10:25:16.740 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2023-09-08 10:25:16.745 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2023-09-08 10:25:16.746 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2023-09-08 10:25:19.758 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
-2023-09-08 10:25:19.803 [SpringApplicationShutdownHook] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8081/eureka/}, exception=I/O error on DELETE request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-09-18 00:19:43.328 [SpringApplicationShutdownHook] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on DELETE request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-09-18 00:19:43.333 [SpringApplicationShutdownHook] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8081/eureka/}, exception=I/O error on DELETE request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
@@ -307,8 +212,8 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
 	... 38 more
 
-2023-09-08 10:25:19.803 [SpringApplicationShutdownHook] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on DELETE request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-2023-09-08 10:25:19.803 [SpringApplicationShutdownHook] ERROR c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0 - de-registration failedCannot execute request on any known server
+2023-09-18 00:19:43.333 [SpringApplicationShutdownHook] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on DELETE request for "http://localhost:8081/eureka/apps/RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-09-18 00:19:43.333 [SpringApplicationShutdownHook] ERROR c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENT-PRODUCT-APARTMENT/localhost:rent-product-apartment:0 - de-registration failedCannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
@@ -340,4 +245,4 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
-2023-09-08 10:25:19.812 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2023-09-18 00:19:43.345 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

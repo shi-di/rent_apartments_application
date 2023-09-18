@@ -7,9 +7,9 @@ import com.example.rent_basic_apartment.model.entity.ApartmentsEntity;
 import com.example.rent_basic_apartment.model.entity.RatingEntity;
 import com.example.rent_basic_apartment.repository.ApartmentsRepository;
 import com.example.rent_basic_apartment.repository.RatingRepository;
+import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -18,16 +18,13 @@ import static com.example.rent_basic_apartment.constant.ConstApplication.COMMENT
 
 
 @Service
+@RequiredArgsConstructor
 public class RatingGlobalServiceImpl implements RatingGlobalService {
-
     private final Logger logger = LoggerFactory.getLogger(RatingGlobalServiceImpl.class);
 
-    @Autowired
-    private RatingRepository ratingRepository;
-    @Autowired
-    private ApartmentsRepository apartmentsRepository;
-    @Autowired
-    private ApplicationMapper applicationMapper;
+    private final RatingRepository ratingRepository;
+    private final ApartmentsRepository apartmentsRepository;
+    private final  ApplicationMapper applicationMapper;
 
     /**
      * сохранение рейтинга в БД rating_table
@@ -38,12 +35,12 @@ public class RatingGlobalServiceImpl implements RatingGlobalService {
         logger.info("RatingGlobalServiceImpl -> saveRatingApartments()");
 
         RatingEntity ratingEntity = applicationMapper.prepareRatingEntity(ratingApartmentDto);
-        ApartmentsEntity appartments = apartmentsRepository.findById(ratingApartmentDto.getApartmentId()).get();
+        ApartmentsEntity apartments = apartmentsRepository.findById(ratingApartmentDto.getApartmentId()).get();
 
-        ratingEntity.setApartmentsEntity(appartments);
+        ratingEntity.setApartmentsEntity(apartments);
         ratingRepository.save(ratingEntity);
 
-        updateGlobalRatingApartment(appartments, ratingApartmentDto);
+        updateGlobalRatingApartment(apartments, ratingApartmentDto);
 
         logger.info("RatingGlobalServiceImpl <- saveRatingApartments()");
 

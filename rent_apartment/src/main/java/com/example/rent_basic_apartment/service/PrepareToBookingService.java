@@ -18,10 +18,8 @@ import java.time.LocalDateTime;
 @RequiredArgsConstructor
 public class PrepareToBookingService {
 
-//    private final ApartmentsRepository apartmentsRepository;
     private final ClientRepository clientRepository;
     private final BookingHistoryRepository bookingHistoryRepository;
-//    private final ProductRepository productRepository;
     private final ProductManager productManager;
     private final UserSession session;
 

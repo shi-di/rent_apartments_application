@@ -16,5 +16,4 @@ public interface ApartmentsRepository extends JpaRepository<ApartmentsEntity, Lo
     public ApartmentsEntity getApartmentsEntityByDateLotRegistration(LocalDateTime date);
     @Query(nativeQuery = true, value = "SELECT * FROM apartments_table ORDER BY id DESC LIMIT 1")
     public ApartmentsEntity getLastId();
-    public List<ApartmentsEntity> getApartmentsEntitiesByAvailableIsTrue();
 }

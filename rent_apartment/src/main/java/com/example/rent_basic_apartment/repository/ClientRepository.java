@@ -14,5 +14,4 @@ public interface ClientRepository extends JpaRepository<ClientEntity, Long> {
 
     @Query(nativeQuery = true, value = "SELECT * FROM client_table ORDER BY id DESC LIMIT 1")
     public ClientEntity getLastId();
-    public List<ClientEntity> findAllByFirstProductIsNull();
 }

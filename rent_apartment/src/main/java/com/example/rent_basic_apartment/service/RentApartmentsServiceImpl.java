@@ -11,9 +11,9 @@ import com.example.rent_basic_apartment.model.entity.ApartmentsEntity;
 import com.example.rent_basic_apartment.repository.AddressRepository;
 import com.example.rent_basic_apartment.repository.ApartmentsRepository;
 import com.example.rent_basic_apartment.weather_manager.WeatherManager;
+import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -24,19 +24,15 @@ import java.util.stream.Collectors;
 import static com.example.rent_basic_apartment.constant.ConstApplication.APARTMENTS_REGISTERED;
 
 @Service
+@RequiredArgsConstructor
 public class RentApartmentsServiceImpl implements RentApartmentsService {
     private final Logger logger = LoggerFactory.getLogger(RentApartmentsServiceImpl.class);
 
-    @Autowired
-    private GeocodeManager geocodeManager;
-    @Autowired
-    private WeatherManager weatherManager;
-    @Autowired
-    private ApplicationMapper apartmentsMapper;
-    @Autowired
-    private AddressRepository addressRepository;
-    @Autowired
-    private ApartmentsRepository apartmentsRepository;
+    private final GeocodeManager geocodeManager;
+    private final WeatherManager weatherManager;
+    private final ApplicationMapper apartmentsMapper;
+    private final AddressRepository addressRepository;
+    private final ApartmentsRepository apartmentsRepository;
 
     /**
      * сохранение апартаментов в БД

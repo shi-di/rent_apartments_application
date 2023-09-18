@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface IntegrationServiceRepository extends JpaRepository<IntegrationServiceEntity, Long> {
         public IntegrationServiceEntity getGeoLocAppKeyEntityByServiceName(String serviceName);
-        public IntegrationServiceEntity getIntegrationServiceEntityByUrlLocationInfo(String serviceName);
+
 }
