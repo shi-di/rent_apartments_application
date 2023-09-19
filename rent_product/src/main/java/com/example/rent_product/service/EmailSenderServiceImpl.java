@@ -9,22 +9,16 @@ import com.example.rent_product.repository.ApartmentsRepository;
 import com.example.rent_product.repository.BookingHistoryRepository;
 import com.example.rent_product.repository.ClientRepository;
 import com.example.rent_product.repository.ProductRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
+@RequiredArgsConstructor
 public class EmailSenderServiceImpl implements EmailSenderService {
 
-    @Autowired
-    private BookingHistoryRepository bookingHistoryRepository;
-    @Autowired
-    private ClientRepository clientRepository;
-    @Autowired
-    private ProductRepository productRepository;
-    @Autowired
-    private ApartmentsRepository apartmentsRepository;
-    @Autowired
-    private EmailSender emailSender;
+    private final BookingHistoryRepository bookingHistoryRepository;
+    private final EmailSender emailSender;
 
     /**
      * Отправка уведомлений пользователю на почту, бронирование апартаментов подтверждено.

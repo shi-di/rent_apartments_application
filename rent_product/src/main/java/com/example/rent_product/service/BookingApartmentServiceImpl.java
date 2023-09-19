@@ -8,6 +8,7 @@ import com.example.rent_product.repository.ApartmentsRepository;
 import com.example.rent_product.repository.BookingHistoryRepository;
 import com.example.rent_product.repository.ClientRepository;
 import com.example.rent_product.repository.ProductRepository;
+import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,7 @@ import static com.example.rent_product.constant.ConstApplication.*;
 import static java.time.Month.*;
 
 @Service
+@RequiredArgsConstructor
 public class BookingApartmentServiceImpl implements BookingApartmentService {
 
     private final Logger logger = LoggerFactory.getLogger(BookingApartmentServiceImpl.class);

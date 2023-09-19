@@ -10,6 +10,5 @@ import java.util.List;
 public interface ProductRepository extends JpaRepository<ProductEntity, Long> {
 
     public List<ProductEntity> findAllByStatusActiveInactiveIsTrue();
-//    public ProductEntity findProductEntityByDiscountAmount(String s);
 
 }

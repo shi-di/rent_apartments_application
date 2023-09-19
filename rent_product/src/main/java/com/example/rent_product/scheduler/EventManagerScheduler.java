@@ -5,6 +5,7 @@ import com.example.rent_product.entity.ProductEntity;
 import com.example.rent_product.repository.ClientRepository;
 import com.example.rent_product.repository.ProductRepository;
 import com.example.rent_product.service.EmailSenderServiceImpl;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,16 +25,13 @@ import static com.example.rent_product.constant.ConstApplication.ST_PETERSBURG;
 @Service
 @EnableScheduling
 @Slf4j
+@RequiredArgsConstructor
 public class EventManagerScheduler {
 
     private final Logger logger = LoggerFactory.getLogger(EventManagerScheduler.class);
-
-    @Autowired
-    private ProductRepository productRepository;
-    @Autowired
-    private ClientRepository clientRepository;
-    @Autowired
-    private EmailSenderServiceImpl emailSenderService;
+    private final ProductRepository productRepository;
+    private final ClientRepository clientRepository;
+    private final EmailSenderServiceImpl emailSenderService;
 
 
     @Scheduled(fixedDelay = 90000)
