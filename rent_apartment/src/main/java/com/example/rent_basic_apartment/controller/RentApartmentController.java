@@ -8,11 +8,9 @@ import com.example.rent_basic_apartment.service.BookingApartmentService;
 import com.example.rent_basic_apartment.service.CheckUserSessionService;
 import com.example.rent_basic_apartment.service.RatingGlobalService;
 import com.example.rent_basic_apartment.service.RentApartmentsService;
+import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
 
@@ -77,6 +75,12 @@ public class RentApartmentController {
             return checkResult;
         }
         return bookingApartmentService.bookingApartmentsAndPayment(id, startBookingDate, endBookingDate);
+    }
+
+    @GetMapping(GET_REPORT)
+    public String getReport() {
+
+        return bookingApartmentService.getBookingReports();
     }
 
 }

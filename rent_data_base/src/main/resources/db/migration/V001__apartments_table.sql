@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS apartments_table
 (
     id INT8 PRIMARY KEY NOT NULL,
     room_amount VARCHAR,
-    price VARCHAR,
+    price INT4,
     date_lot_registration TIMESTAMP
 );
 

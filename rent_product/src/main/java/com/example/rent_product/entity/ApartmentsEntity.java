@@ -22,7 +22,7 @@ public class ApartmentsEntity {
     private String roomAmount;
 
     @Column(name = "price")
-    private String price;
+    private Integer price;
 
     @Column(name = "available")
     private Boolean available;

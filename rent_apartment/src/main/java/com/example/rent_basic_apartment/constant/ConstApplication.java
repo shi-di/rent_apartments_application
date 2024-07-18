@@ -9,6 +9,7 @@ public class ConstApplication {
     public static final String GET_APARTMENT = "/get-apartments";
     public static final String RATING_APARTMENT = BASE_URL + "/rating-apartments";
     public static final String BOOKING_APARTMENT = BASE_URL + "/booking-apartment";
+    public static final String GET_REPORT = BASE_URL + "/get-report";
     public static final String LOCATION_SERVICE = "opencagedata.com";
     public static final String WEATHER_SERVICE = "weather.yandex.ru";
     public static final String PRODUCT_DISCOUNT_SERVICE = "http://localhost:9099/product-discount?id=%s";

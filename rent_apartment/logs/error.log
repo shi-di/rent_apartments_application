@@ -171,3 +171,18 @@
 2023-09-17 21:36:09.036 [http-nio-auto-1-exec-4] INFO  c.e.r.s.BookingApartmentServiceImpl - BookingApartmentServiceImpl -> bookingApartmentsAndPayment()
 2023-09-17 21:36:24.606 [http-nio-auto-1-exec-5] INFO  c.e.r.s.BookingApartmentServiceImpl - BookingApartmentServiceImpl -> bookingApartmentsAndPayment()
 2023-09-17 21:36:42.351 [http-nio-auto-1-exec-5] INFO  c.e.r.s.BookingApartmentServiceImpl - BookingApartmentServiceImpl <- bookingApartmentsAndPayment()
+2023-09-28 16:18:34.536 [main] INFO  c.e.r.RentBasicApartmentApplication - Starting RentBasicApartmentApplication using Java 20.0.1 with PID 22392 (C:\Users\DAvmeste\rent_apartments_application\rent_apartment\target\classes started by DAvmeste in C:\Users\DAvmeste\rent_apartments_application)
+2023-09-28 16:18:34.547 [main] INFO  c.e.r.RentBasicApartmentApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-28 16:18:43.949 [main] INFO  c.e.r.RentBasicApartmentApplication - Started RentBasicApartmentApplication in 11.809 seconds (process running for 14.02)
+2023-10-12 11:17:31.587 [main] INFO  c.e.r.RentBasicApartmentApplication - Starting RentBasicApartmentApplication using Java 20.0.1 with PID 14540 (C:\Users\DAvmeste\rent_apartments_application\rent_apartment\target\classes started by DAvmeste in C:\Users\DAvmeste\rent_apartments_application)
+2023-10-12 11:17:31.595 [main] INFO  c.e.r.RentBasicApartmentApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 11:17:41.520 [main] INFO  c.e.r.RentBasicApartmentApplication - Started RentBasicApartmentApplication in 11.777 seconds (process running for 13.537)
+2024-02-09 11:44:18.524 [main] INFO  c.e.r.RentBasicApartmentApplication - Starting RentBasicApartmentApplication using Java 20.0.1 with PID 22924 (C:\Users\DAvmeste\rent_apartments_application\rent_apartment\target\classes started by DAvmeste in C:\Users\DAvmeste\rent_apartments_application)
+2024-02-09 11:44:18.534 [main] INFO  c.e.r.RentBasicApartmentApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-09 11:44:27.231 [main] INFO  c.e.r.RentBasicApartmentApplication - Started RentBasicApartmentApplication in 10.517 seconds (process running for 11.462)
+2024-02-09 14:13:08.705 [main] INFO  c.e.r.RentBasicApartmentApplication - Starting RentBasicApartmentApplication using Java 20.0.1 with PID 27364 (C:\Users\DAvmeste\rent_apartments_application\rent_apartment\target\classes started by DAvmeste in C:\Users\DAvmeste\rent_apartments_application)
+2024-02-09 14:13:08.707 [main] INFO  c.e.r.RentBasicApartmentApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-09 14:13:18.708 [main] INFO  c.e.r.RentBasicApartmentApplication - Started RentBasicApartmentApplication in 11.974 seconds (process running for 13.145)
+2024-02-09 14:16:38.439 [main] INFO  c.e.r.RentBasicApartmentApplication - Starting RentBasicApartmentApplication using Java 20.0.1 with PID 27992 (C:\Users\DAvmeste\rent_apartments_application\rent_apartment\target\classes started by DAvmeste in C:\Users\DAvmeste\rent_apartments_application)
+2024-02-09 14:16:38.442 [main] INFO  c.e.r.RentBasicApartmentApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-09 14:16:48.026 [main] INFO  c.e.r.RentBasicApartmentApplication - Started RentBasicApartmentApplication in 11.567 seconds (process running for 12.597)

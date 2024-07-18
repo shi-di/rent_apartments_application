@@ -7,4 +7,6 @@ public interface BookingApartmentService {
     public String bookingApartmentsAndPayment(Long bookingApartmentId,
                                               LocalDateTime startBookingDate,
                                               LocalDateTime endBookingDate);
+    public String getBookingReports();
+
 }
